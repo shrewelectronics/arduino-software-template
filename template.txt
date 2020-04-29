@@ -1,0 +1,82 @@
+/***************************************************************************
+File Information
+================
+
+       Name: program_filename.ino
+    Version: 0.01
+       Date: 29.04.2020
+     Author: Rob @ Shrew Electronics
+
+
+Description
+===========
+This is a short description about what this code does, and what hardware that
+it is expecting, how data will be sent, what other code should be running on
+the recieving computer, etc. Also, this should include what settings are used
+in the Arduino IDE, or any other programmer that is used, and what physical
+connections are made.
+
+
+Version History
+===============
+v0.01 - First version
+
+
+Requirements
+============
+* First library - add through the library interface:
+     Sketch > Include Library > Manage Libraries
+* Second library.zip - in project directory
+
+
+To Do List
+==========
+* Test functionality.
+* Another todo item.
+
+
+Connections
+===========
+This section includes details about physical connections from the arduino
+development board to the different peripherals that might be connected.
+
+
+Sensor 1 Details
+~~~~~~~~~~~~~~~~
+The sensor uses 3.3V to run, and uses the SDA/SCL data pins
+to send and recieve data.
+
+Arduino Nano -> Sensor 1 Board
+------------------------------
+         3V3 -> VCC
+          A4 -> SDA
+          A5 -> SCL
+         GND -> GND
+
+Note: Here is something of note about the sensor that might be good to
+remember in future!
+
+
+Sensor 2 Details
+~~~~~~~~~~~~~~~~
+This sensor runs off 5V. To has some other features.
+
+Arduino Nano -> Sensor 2 Board
+------------------------------
+          5V -> VCC
+         D11 -> P1
+         D12 -> P2
+         GND -> GND
+
+
+Arduino IDE Settings
+~~~~~~~~~~~~~~~~~~~~
+       Board -> Arduino Nano
+   Processor -> ATmega328
+        Port -> COM1
+  Programmer -> AVR
+  
+Note: COM Port can change depending on USB port used.
+
+***************************************************************************/
+
